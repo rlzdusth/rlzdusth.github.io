@@ -1,3 +1,19 @@
 body {
     background-color: wheat;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2x 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.popup.show {
+    display: block;
+}
