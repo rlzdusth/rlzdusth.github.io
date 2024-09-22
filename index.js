@@ -32,3 +32,7 @@
 
 // closePopup.addEventListener("click", TogglePopup)
 // showPopup.addEventListener("click", TogglePopup)
+
+// showPopup.addEventListener('click', () => {
+//     console.log('show')
+// })
